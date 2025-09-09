@@ -1,0 +1,6 @@
+PySide6
+qasync
+winsdk
+opencv-python
+numpy
+mediapipe==0.10.14
