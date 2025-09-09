@@ -19,7 +19,7 @@ from utils.image import numpy_to_qimage
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("IR MVP (OOP): Torch + Drowsy ON/OFF + SPACE save PNG")
+        self.setWindowTitle("IR MVP (OOP): Torch + Drowsy ON/OFF + Press C to save PNG")
         self.resize(1000, 660)
 
         # Core components
@@ -97,7 +97,7 @@ class MainWindow(QWidget):
 
     # --- Keybind: Space to save ---
     def keyPressEvent(self, event: QKeyEvent):
-        if event.key() == Qt.Key_Space:
+        if event.key() == Qt.Key.Key_C:
             self._save_current_frame()
         else:
             super().keyPressEvent(event)
