@@ -1,10 +1,3 @@
-Got it — here’s a polished **README.md in English** with Markdown formatting, matching the OOP MVP project.
-
----
-
-# README.md
-
-```markdown
 # IR Drowsy Detection MVP
 
 A Windows-only PySide6 GUI MVP for working with **IR camera streams**.  
